@@ -66,7 +66,7 @@ Finally, customers can purchase a license for use with any Adobe Experience Clou
 
 ### Are trials available?
 
-Not at this time. 
+Not at this time.
 
 ### What is included with an App Builder license?
 
@@ -74,15 +74,15 @@ App Builder is licensed in packs that include runtime, event, storage, and other
 
 ### How can I get access to App Builder if my company is already licensed?
 
-First, make sure you have Developer or System Admin permissions from Adobe's Identity Management System (IMS) organization. Please contact the system administrator of your Adobe IMS organization for help getting Developer access. Once you confirm access use either the Adobe I/O Command Line Interface (CLI) or the [Adobe Developer Console](https://developer.adobe.com/console) to start a project. 
+First, make sure you have Developer or System Admin permissions from Adobe's Identity Management System (IMS) organization. Please contact the system administrator of your Adobe IMS organization for help getting Developer access. Once you confirm access use either the Adobe I/O Command Line Interface (CLI) or the [Adobe Developer Console](https://developer.adobe.com/console) to start a project.
 
 ### Is App Builder available to individuals who are not part of a company?
 
-No. App Builder is availabile only to Adobe enterprise customers and partners. 
+No. App Builder is availabile only to Adobe enterprise customers and partners.
 
 ### How can I get access to I/O Runtime?
 
-I/O Runtime is part of App Builder, if your company has a license for App Builder you already have access. 
+I/O Runtime is part of App Builder, if your company has a license for App Builder you already have access.
 
 ## Using App Builder
 
@@ -114,11 +114,11 @@ Visit our [App Builder Community](https://experienceleaguecommunities.adobe.com/
 
 ### What limits does I/O Runtime impose on actions?
 
-Limits and their default values are listed under [System Settings](../guides/runtime_guides/system_settings.md); the most important are function timeouts and the maximum payloads that can be posted to functions.
+Limits and their default values are listed under [System Settings](../guides/runtime_guides/system-settings.md); the most important are function timeouts and the maximum payloads that can be posted to functions.
 
 ### Do ingress IP addresses for Adobe I/O Runtime ever change?
 
-Yes, IP addresses returned when looking up an Adobe I/O Runtime endpoint's DNS record can change at any time. To avoid issues connecting and routing to the platform, clients should not cache DNS-lookup responses for Adobe I/O Runtime endpoints beyond the TTL of the DNS record. For more information, see [Secure communication with back-end services](../guides/runtime_guides/security_general.md#secure-communication-with-back-end-services) in the [Security Guide](../guides/runtime_guides/security_general.md).
+Yes, IP addresses returned when looking up an Adobe I/O Runtime endpoint's DNS record can change at any time. To avoid issues connecting and routing to the platform, clients should not cache DNS-lookup responses for Adobe I/O Runtime endpoints beyond the TTL of the DNS record. For more information, see [Secure communication with back-end services](../guides/runtime_guides/security-general.md#secure-communication-with-back-end-services) in the [Security Guide](../guides/runtime_guides/security-general.md).
 
 ### What ports and outbound connections does I/O Runtime support?
 
@@ -132,4 +132,4 @@ If you need a port not on the list, please share the use case with us.
 
 I/O Runtime runs in multiple regions, deploys code in all of them, and executes it in the region closest to the caller (latency-based routing). Execution cannot be restricted to a specific region or regions.
 
-For more information about regions and where actions are executed, see [Multiple Regions](../guides/runtime_guides/reference_docs/multiple_regions.md).
+For more information about regions and where actions are executed, see [Multiple Regions](../guides/runtime_guides/reference_docs/multiple-regions.md).
